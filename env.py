@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+API_ID = os.getenv("API_ID", "29698700").strip()
+API_HASH = os.getenv("API_HASH", "c08d5af866792c7f96e2de2b35ad5a34").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6005321257:AAFytdaPgqN8Q6ECsB9V9dQKnTGk2DB5q1M").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://yoqdgotu:D2BaXqX7e4VBZQRrLoGzevz3UqFiQPf9@lallah.db.elephantsql.com/yoqdgotu").strip() # Not a necessary variable anymore but you can add to get stats
+MUST_JOIN = os.getenv("MUST_JOIN", "solotreee")
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
